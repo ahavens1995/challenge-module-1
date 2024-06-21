@@ -1,30 +1,33 @@
+/* Apply styling to the overall page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Set Body background*/
 body {
     background-color: #d9dcd6;
 }
 
-.header {
+/**** Nav Bar *****/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +35,11 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -45,12 +48,14 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/****************************/
 
 p {
     font-size: 16px;
 }
 
-.hero {
+/* Main page image */
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,6 +64,7 @@ p {
     background-position: center;
 }
 
+/* Float for images */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,13 +75,15 @@ p {
     margin-left: 25px;
 }
 
-.content {
+/* Main content formatting */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/* Page aside */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,21 +94,23 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+aside .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+aside .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
+aside .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/****************************/
 
+/* Main content description formatting */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -161,6 +171,7 @@ p {
     color: #ffffff;
 }
 
+/* Main content image formatting */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -188,13 +199,14 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* Footer */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
