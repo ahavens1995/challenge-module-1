@@ -1,23 +1,34 @@
 # Havens Semantic Mockup
-## Description
-The first coding challenge of our bootcamp was to take a prebuilt webpage and replace the div tags with HTML semantic elements.
-This was done to gain a better understanding of a more readable website. 
-By doing this, I better understand how semantic elements tie into an HTML file and make the file readable.
 
 ## Table of Contents
-- [Installation](#installation)
+- [Description](#description)
+    - [Built With](#built-with)
+- [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
+- [Contact](#contact)
 
-## Installation
-N/A
+## Description
+This project was designed as an intro to HTML and CSS. We were given a prebuilt HTML/CSS folder and updated the HTML file with semantic tags.
+
+https://ahavens1995.github.io/havens-semantic-mockup/
+
+![image](./assets/images/splashPage.PNG)
+
+### Built with
+Project built with:
+* HTML
+* CSS
+
+## Getting Started 
+1. Open the github page: https://ahavens1995.github.io/havens-semantic-mockup/
 
 ## Usage
-Useful for understanding how HTML semantic elements work. Reference for a refresher on HTML semantics.
-
-## Credits
-N/A
+Please use this as an initial look into how to use semantic tags in HTML.
 
 ## License
-N/A
+No license has been used
+
+## Contact
+Aurora Havens
+https://ahavens1995.github.io/havens-semantic-mockup/
